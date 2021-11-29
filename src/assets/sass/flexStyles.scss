@@ -1,0 +1,41 @@
+// ALiGN - FIRST, JUSTIFY - SECOND
+@mixin flex($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+.flex {
+  &_start {
+    &_between {
+      @include flex(flex-start, space-between);
+    }
+
+    &_center {
+      @include flex(flex-start, center);
+    }
+  }
+  &_center {
+    &_between {
+      @include flex(center, space-between);
+    }
+
+    &_flex-start {
+      @include flex(center, flex-start);
+    }
+
+    &_end {
+      @include flex(center, flex-end);
+    }
+
+    &_center {
+      @include flex(center, center);
+    }
+  }
+
+  &_end {
+    &_between {
+      @include flex(flex-end, space-between);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.two-button {
+  &__container {
+    width: 50%;
+    opacity: 0.6;
+    padding: 80px 0;
+    background-color: #fff;
+
+    &_active {
+      opacity: 1;
+      background-color: #f6f6f9;
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1d1d2d;
+  }
+
+  &__image {
+    margin: 0px 8px;
+
+    &_rotate {
+      transform: rotate(-180deg);
+    }
+  }
+}

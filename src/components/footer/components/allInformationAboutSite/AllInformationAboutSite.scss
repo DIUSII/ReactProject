@@ -1,0 +1,48 @@
+.information-about-site {
+  padding-bottom: 48px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #5f5f6b;
+
+  &__content {
+    margin-right: 80px;
+  }
+
+  &__label-phone {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 12px;
+    display: block;
+
+    &_bold {
+      font-weight: bold;
+    }
+  }
+
+  &__phone {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    display: block;
+    margin-bottom: 18px;
+  }
+
+  &__label-email {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(228, 228, 235, .5);
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  &__email {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    color: rgba(247, 82, 109, .7);
+  }
+}

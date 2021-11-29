@@ -1,0 +1,31 @@
+.active-our-card {
+  background-color: #f6f6f9;
+  padding: 80px 0;
+
+  &__container {
+    background: url('../../../../assets/image/activeOurCard/backgroundBanner.jpg') no-repeat 50%;
+    background-size: cover;
+    border-radius: 16px;
+    height: 380px;
+    padding: 0 92px;
+  }
+
+  &__image {
+    margin-right: 94px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    margin: 0 0 15px;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    margin: 0 0 20px;
+  }
+}

@@ -1,0 +1,62 @@
+.link-all-site {
+  padding-bottom: 48px;
+  margin-bottom: 38px;
+  border-bottom: 1px solid #5f5f6b;
+
+  &__business-container {
+    max-width: 623px;
+    width: 100%;
+  }
+
+  &__contact-container {
+    margin-right: 30px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    margin: 0 0 24px;
+
+    &_margin-for-active-card {
+      margin-bottom: 44px;
+    }
+
+    &_margin-for-company{
+      margin-bottom: 0;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 16px;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &_margin-for-private-persons {
+      margin-bottom: 44px;
+    }
+  }
+
+  &__item {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #93939a;
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}

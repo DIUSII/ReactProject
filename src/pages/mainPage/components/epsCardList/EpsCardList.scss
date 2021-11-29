@@ -1,0 +1,33 @@
+.eps-card-list {
+  background-color: #fff;
+
+  &__container {
+    padding: 96px 30px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1d1d2d;
+    margin: 0 0 40px;
+    max-width: 924px;
+  }
+
+  &__image-list-container {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  &__image-item-container {
+    margin: 3.2px;
+  }
+
+  &__space {
+    width: 127px;
+  }
+
+  &__long-arrow {
+    margin-right: 80px;
+  }
+}

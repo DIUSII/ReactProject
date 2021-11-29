@@ -1,0 +1,40 @@
+.advertising {
+  background-color: #f6f6f9;
+  padding: 80px 0;
+
+  &__container {
+    background: url('../../../../assets/image/advertising/backgroundBanner.png') no-repeat 50%;
+    background-size: cover;
+    box-shadow: 0px 4px 92px rgba(25, 162, 239, 0.31);
+    border-radius: 16px;
+    padding-right: 27px;
+  }
+
+  &__text-container {
+    margin: 0px 177px 0px 106px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1d1d2d;
+    margin: 0 0 16px;
+  }
+
+  &__subtitle {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #f72e6c;
+    margin: 0 0 16px;
+  }
+
+  &__paragraph {
+    font-size: 14px;
+    line-height: 22px;
+    color: #1D1D2D;
+    opacity: 0.7;
+    margin: 0 0 16px;
+  }
+}

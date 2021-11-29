@@ -1,0 +1,15 @@
+.button {
+  padding: 12px 32px;
+  border: .75px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+
+  &__text {
+    margin-right: 12px;
+  }
+
+  &__arrow {
+    margin-bottom: -2.5px;
+    color: #1D1D2D;
+  }
+}

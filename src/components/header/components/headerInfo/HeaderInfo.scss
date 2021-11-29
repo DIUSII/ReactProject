@@ -1,0 +1,33 @@
+.header-info {
+  padding: 16px 0px 18px;
+
+  &__logo-sistema-promo {
+    margin-right: 42px;
+  }
+
+  &__department-sales {
+    margin-right: 64px;
+  }
+
+  &__label, &__text {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  &__label {
+    color: #f72e6c;
+  }
+
+  &__text {
+    color: #5f5f6b;
+  }
+
+  &__phone {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5f5f6b;
+
+    text-decoration: none;
+  }
+}
